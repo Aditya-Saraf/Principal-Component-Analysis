@@ -220,8 +220,8 @@ def display_variance_covered(e_val,n_e):
 
 
 #LOAD DATA
-train_data_path ="pca_train.csv"
-test_data_path ="pca_test.csv"
+train_data_path ="data/pca_train.csv"
+test_data_path ="data/pca_test.csv"
 
 df_train = pd.read_csv(train_data_path)
 df_test = pd.read_csv(test_data_path)
